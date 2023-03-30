@@ -1824,7 +1824,7 @@ async function run() {
 
     const promises = (await fs.promises.readdir(assetDir))
       .filter(n => !n.startsWith('.'))
-      .forEach(async assetName => {
+      .map(async assetName => {
         const assetPath = path.join(assetDir, assetName);
         const assetContentType = mime.getType(assetName) || 'application/x-binary';
 
