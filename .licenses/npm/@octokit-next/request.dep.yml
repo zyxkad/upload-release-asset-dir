@@ -1,0 +1,11 @@
+---
+name: "@octokit-next/request"
+version: 2.3.0
+type: npm
+summary: Simplified version of `@octokit/request` to experiment with ESM and types
+homepage: https://github.com/octokit/octokit-next.js/tree/main/packages/request#readme
+license: mit
+licenses:
+- sources: README.md
+  text: "[MIT](LICENSE)"
+notices: []
